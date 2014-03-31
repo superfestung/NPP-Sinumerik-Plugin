@@ -1,0 +1,142 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource."
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PLUGINGOLINE_DEMO DIALOGEX 26, 41, 223, 400
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_WINDOWEDGE
+CAPTION "SINUMERIK Toolbox SW4.5"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Go to line :",ID_UGO_STATIC,6,292,38,8
+    EDITTEXT        ID_GOLINE_EDIT,55,290,30,12,ES_NUMBER
+    DEFPUSHBUTTON   "&Go",IDOK,106,290,70,14,BS_NOTIFY
+    PUSHBUTTON      "IF ELSE ENDIF",IDC_BUTTON1,43,310,68,14
+    EDITTEXT        IDC_EDIT_APP_VERSION,109,31,84,12,ES_AUTOHSCROLL
+    LTEXT           "Application Version",IDC_STATIC,23,32,61,8
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,109,45,84,12
+    LTEXT           "Modification Date",IDC_STATIC,28,47,56,8
+    CONTROL         "",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,109,73,84,12
+    LTEXT           "IP Adresse",IDC_STATIC,49,76,35,8
+    SCROLLBAR       IDC_SCROLLBAR1,213,0,10,300,SBS_VERT
+    PUSHBUTTON      "RunMyScreen Tools",IDC_BUTTON_RunMyScreen,11,115,84,14
+    PUSHBUTTON      "Easy Extend Tools",IDC_BUTTON_EasyExtend,11,134,84,14
+    PUSHBUTTON      "Cycle Tools",IDC_BUTTON_CYCLE,11,153,84,14
+    PUSHBUTTON      "TMM Tools",IDC_BUTTON_TMM,11,172,84,14
+    PUSHBUTTON      "Text Tools",IDC_BUTTON_TEXT,11,191,84,14
+    PUSHBUTTON      "DRAM Interface",IDC_BUTTON_DRAM,109,115,84,14
+    PUSHBUTTON      "PLC Interface",IDC_BUTTON_PLC,109,134,84,14
+    PUSHBUTTON      "System Variable",IDC_BUTTON_SYSVAR,109,153,84,15
+    PUSHBUTTON      "Machine Data",IDC_BUTTON_MD,109,172,84,14
+    PUSHBUTTON      "Global User Data",IDC_BUTTON_GUD,109,191,84,14
+    EDITTEXT        IDC_EDIT_MACHINE,109,3,84,12,ES_AUTOHSCROLL
+    LTEXT           "Machine",IDC_STATIC_TXT_MACHINE,56,5,28,8
+    EDITTEXT        IDC_EDIT_OEM,109,17,84,12,ES_AUTOHSCROLL
+    LTEXT           "OEM",IDC_STATIC_OEM,67,20,17,8
+    EDITTEXT        IDC_EDIT_EDITOR,109,59,84,12,ES_AUTOHSCROLL
+    LTEXT           "Editing Engineer",IDC_STATIC_TXT_EDITOR,32,61,52,8
+    COMBOBOX        IDC_COMBO_RESOLUTION,109,90,84,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Screen Resolution",IDC_STATIC_TXT_RESOLUTION,25,92,59,8
+    PUSHBUTTON      "System Pictures",IDC_BUTTON_SYS_PIC,109,209,84,14
+    PUSHBUTTON      "Custom Pictures",IDC_BUTTON_CUS_PIC,109,228,84,14
+    PUSHBUTTON      "WinSCP",IDC_BUTTON_WINSCP,45,254,50,14
+    PUSHBUTTON      "RCS Commander",IDC_BUTTON_RCS,117,255,79,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PLUGINGOLINE_DEMO, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 397
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PLUGINGOLINE_DEMO DLGINIT
+BEGIN
+    IDC_COMBO_RESOLUTION, 0x403, 8, 0
+0x3436, 0x7830, 0x3834, 0x0030, 
+    IDC_COMBO_RESOLUTION, 0x403, 8, 0
+0x3038, 0x7830, 0x3036, 0x0030, 
+    IDC_COMBO_RESOLUTION, 0x403, 9, 0
+0x3031, 0x3432, 0x3778, 0x3836, "\000" 
+    IDC_COMBO_RESOLUTION, 0x403, 10, 0
+0x3631, 0x3030, 0x3178, 0x3432, 0x0030, 
+    0
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
